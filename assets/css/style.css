@@ -1,0 +1,41 @@
+body {
+  font-family: 'Oswald', sans-serif;
+}
+
+
+nav {
+  width: 100vw;
+}
+
+header {
+  background-image: url(../img/bg_hero.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  padding: 550px 0 100px 0;
+  margin-bottom: 20px;
+}
+
+.borde-superior {
+  border-top: 2px solid #ffffff;
+  max-width: 148px;
+  margin: 0 auto;
+}
+
+hr {
+  height: 2px;
+  max-width: 140px
+}
+
+i {
+  color: #800080;
+}
+
+#works {
+  background-color: #800080;
+}
+
+.works {
+  padding: 80px 50px;
+}
