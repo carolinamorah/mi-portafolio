@@ -12,30 +12,33 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  color: #ffffff;
   padding: 550px 0 100px 0;
   margin-bottom: 20px;
 }
 
-.borde-superior {
-  border-top: 2px solid #ffffff;
-  max-width: 148px;
-  margin: 0 auto;
+.subrayado-header {
+  max-width: 20%;
 }
 
 hr {
   height: 2px;
-  max-width: 140px
+  margin: 1px auto;
+  max-width: 8%;
 }
 
-i {
+#experience i {
   color: #800080;
 }
 
 #works {
   background-color: #800080;
+  padding: 80px 50px;
 }
 
-.works {
-  padding: 80px 50px;
+span {
+  font-size: 40px;
+}
+
+h1 {
+  font-size: 73px;
 }
