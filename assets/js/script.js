@@ -1,12 +1,20 @@
 $(function(){
-  $("a").on("click", function (e) {
-  e.preventDefault();
+   $("a").on('click', function(event) {
+     if (this.hash !== "") {
+        event.preventDefault();
 
-  const href = $(this).attr("href");
+    var hash = this.hash;
 
-  $("html, body").animate({ scrollTop: $(href).offset().top }, 800);
-});
+    $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
 
+        window.location.hash = hash;
+              });
+
+      }
+    });
+    
 $('[data-toggle="popover"]').popover()
 
 
