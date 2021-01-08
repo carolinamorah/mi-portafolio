@@ -53,6 +53,15 @@ h1 {
   font-size: 73px;
 }
 
+.separador {
+  background-color: black;
+  width: 100%;
+}
+
 #contact span {
-  font-size: 25px;
+  font-size: 23px;
+}
+
+.subtitulos {
+  font-size: 48px;
 }
