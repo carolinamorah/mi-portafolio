@@ -23,7 +23,7 @@ header {
 hr {
   height: 2px;
   margin: 1px auto;
-  max-width: 8%;
+  width: 8%;
 }
 
 .carousel-indicators {
@@ -40,11 +40,20 @@ hr {
   color: #800080;
 }
 
+@media (max-width: 1200px){
+#works {
+  background-color: #800080;
+  padding: 80px 120px;
+}
+}
+@media (max-width: 576px) {
+
 #works {
   background-color: #800080;
   padding: 80px 50px;
 }
 
+}
 span {
   font-size: 40px;
 }
