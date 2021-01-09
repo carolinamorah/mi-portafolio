@@ -17,14 +17,29 @@ header {
 }
 
 .subrayado-header {
+  border-top: 3px solid;
   max-width: 20%;
+  margin: 0 auto;
+  font-weight: 700;
 }
 
-hr {
+ hr {
   height: 2px;
   margin: 1px auto;
-  width: 8%;
+  width: 18%;
 }
+
+h4 {
+ font-size: 30px;
+ font-weight: 600;
+}
+
+h5 {
+  font-size: 30px;
+  font-weight: 300;
+}
+
+
 
 .carousel-indicators {
   top: 50px;
@@ -37,36 +52,52 @@ hr {
 }
 
 #experience i {
-  color: #800080;
+  color: #8A60A2;
 }
 
-@media (max-width: 1200px){
 #works {
-  background-color: #800080;
+  background-color: #8A60A2;
   padding: 80px 120px;
 }
-}
+
 @media (max-width: 576px) {
 
 #works {
-  background-color: #800080;
+  background-color: #8A60A2;
   padding: 80px 50px;
 }
-
+.subrayado-header {
+  border-top: 3px solid;
+  max-width: 84%;
+  margin: 0 auto;
 }
-span {
-  font-size: 40px;
+.col-md-6 {
+  padding-bottom: 15px;
+}
 }
 
 h1 {
   font-size: 73px;
 }
 
+.extra-light {
+  font-weight: 200;
+}
+
 #contact span {
   font-size: 23px;
 }
 
-.subtitulos {
-  font-size: 48px;
+footer span {
   font-weight: 700;
+  font-size: 35px;
+}
+
+.subtitulos {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.bg-purple {
+  background-color: #8A60A2;
 }
