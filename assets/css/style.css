@@ -60,11 +60,11 @@ h5 {
   border-radius: 50%;
 }
 
-#experience i {
+.mi-educacion i {
   color: #8A60A2;
 }
 
-#experience {
+.mi-educacion {
   padding: 3.75rem 0;
 }
 
@@ -118,3 +118,22 @@ footer span {
 .card-title {
   font-size: 1.438em;
 }
+
+.tracking-in-expand{opacity:0; -webkit-animation:tracking-in-expand .7s cubic-bezier(.215,.61,.355,1.000) 1s forwards;animation:tracking-in-expand .7s cubic-bezier(.215,.61,.355,1.000) 1s forwards}
+.tracking-in-expand2{opacity:0; -webkit-animation:tracking-in-expand2 .8s cubic-bezier(.215,.61,.355,1.000) 1.5s alternate forwards;animation:tracking-in-expand2 .8s cubic-bezier(.215,.61,.355,1.000) 1.5s alternate forwards}
+
+@-webkit-keyframes tracking-in-expand{0%{letter-spacing:-.3em;opacity:0}40%{opacity:.6}100%{opacity:1}}@keyframes tracking-in-expand{0%{letter-spacing:-.3em;opacity:0}40%{opacity:.6}100%{opacity:1}};
+@-webkit-keyframes tracking-in-expand2{0%{letter-spacing:-.5em;opacity:0}40%{opacity:.6}100%{opacity:1}}@keyframes tracking-in-expand2{0%{letter-spacing:-.5em;opacity:0}40%{opacity:.6}100%{opacity:1}}
+
+
+/* Clase para animación de fade in */
+.fade-in {
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.fade-in.active {
+  opacity: 1;
+}
+
+

@@ -32,7 +32,10 @@
               <a class="nav-link" href="#about">Sobre mí<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#experience">Experiencia</a>
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#education">Educación</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#works">Trabajos</a>
@@ -45,16 +48,16 @@
       </div>
     </nav>
 
-    <header id="inicio" class="container-fluid text-white mt-5 text-center">
-      <h1 class="extra-light">Yo soy</h1>
-      <h1 class="subrayado-header">Carolina</h1>
+    <header id="inicio" class="container-fluid text-white mt-5 pl-5 text-center">
+      <h1 class="extra-light tracking-in-expand">Yo soy</h1>
+      <h1 class="subrayado-header tracking-in-expand2">Carolina</h1>
     </header>
 
-    <section id="about" class="container my-5 d-none d-md-block text-dark">
+    <section id="about" class="container my-5 text-dark">
       <h2 class="text-center subtitulos">ACERCA DE MÍ</h2>
       <hr class="bg-dark">
       <div class="row pt-5">
-        <div class="col-6">
+        <div class="col-md-6 fade-in">
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
             incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
             exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
@@ -62,7 +65,7 @@
             Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
             anim id est laborum.</p>
         </div>
-        <div class="col-6">
+        <div class="col-md-6 fade-in">
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
             ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
             laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
@@ -70,9 +73,9 @@
             non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
       </div>
-
-
-      <div class="container my-5 py-3">
+    </section>
+  
+    <section id="skills" class="container fade-in my-5 d-none d-md-block">
       <div class="row">
         <div class="col-4 p-4 text-right">
           <h3>Conocimientos técnicos:</h3>
@@ -142,33 +145,40 @@
         </div>
       </div>
      </div>
-   </section>
+    </section>
 
-    <section id="experience" class="container text-dark my-5">
-        <h2 class="text-center subtitulos">MI EXPERIENCIA</h2>
-        <hr class="bg-dark">
-        <div class="row text-center">
-        <div class="col-md-6 mt-5">
-          <i class="far fa-newspaper fa-6x pb-3"></i>
-          <h4>Periodista</h4>
-          <h5>Universidad de Santiago</h5>
-          <h5>2010-2015</h5>
+   <section class="container text-dark my-5">
+      <h2 id="education" class="text-center subtitulos">EDUCACIÓN</h2>
+      <hr class="bg-dark">
+      <div class="row mi-educacion text-center">
+
+        <div class="col-md-4 mt-5 fade-in">
+          <i class="fas fa-laptop-code fa-6x pb-3"></i>
+          <h4>Desarrolladora Front End</h4>
+          <h5>Desafío Latam</h5>
+          <h5>2021-2022</h5>
         </div>
-
-        <div class="col-md-6 mt-5">
+        <div class="col-md-4 mt-5 fade-in">
           <i class="fas fa-laptop-code fa-6x pb-3"></i>
           <h4>Desarrolladora Full-Stack</h4>
           <h5>Desafío Latam</h5>
           <h5>2019-2020</h5>
         </div>
+        
+        <div class="col-md-4 mt-5 fade-in">
+          <i class="far fa-newspaper fa-6x pb-3"></i>
+          <h4>Periodista</h4>
+          <h5>Universidad de Santiago</h5>
+          <h5>2010-2015</h5>
         </div>
+      </div>
     </section>
 
     <section id="works" class="container-fluid text-dark text-center py-5">
        <h2 class="text-white subtitulos">MIS ÚLTIMOS TRABAJOS</h2>
        <hr class="bg-white">
        <div class="card-deck pt-5 pb-3">
-        <div class="card">
+        <div class="card fade-in">
           <img src="assets/img/cuppon.png" class="card-img-top" alt="...">
           <div class="card-body">
              <h5 class="card-title font-weight-bold">CUPPÓN</h5>
@@ -177,7 +187,7 @@
               data-target="#cuppon">Ver más</a>
           </div>
         </div>
-        <div class="card">
+        <div class="card fade-in">
           <img src="assets/img/suricata.png" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title font-weight-bold">SURICATA</h5>
@@ -186,7 +196,7 @@
              data-target="#suricata">Ver más</a>
           </div>
         </div>
-        <div class="card">
+        <div class="card fade-in">
           <img src="assets/img/iguana_page.png" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title font-weight-bold">IGUANA PAGE</h5>
@@ -198,7 +208,7 @@
       </div>
 
       <div class="card-deck pt-3">
-        <div class="card">
+        <div class="card fade-in">
           <img src="assets/img/meet_coffee.png" class="card-img-top" alt="">
           <div class="card-body">
             <h5 class="card-title font-weight-bold">MEET & COFFEE</h5>
@@ -207,7 +217,7 @@
              data-target="#meetcoffee">Ver más</a>
           </div>
         </div>
-        <div class="card">
+        <div class="card fade-in">
           <img src="assets/img/ricomida.png" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title font-weight-bold">RICOMIDA</h5>
@@ -216,7 +226,7 @@
              data-target="#ricomida">Ver más</a>
           </div>
         </div>
-        <div class="card">
+        <div class="card fade-in">
           <img src="assets/img/olivia_ros.png" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title font-weight-bold">OLIVIA ROS</h5>
